@@ -1,0 +1,183 @@
+{
+    "key": "group_69d904ec8b610",
+    "title": "All Remarks",
+    "fields": [
+        {
+            "key": "field_69d904ed94571",
+            "label": "All Notes",
+            "name": "all_notes",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_repeater_stylised_button": 0,
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add +",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_69d90515c9399",
+                    "label": "Category",
+                    "name": "category",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "30",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "details_about": "Details > About",
+                        "location_province": "Location > Province",
+                        "location_city_municipality": "Location > City\/Municipality",
+                        "location_barangay": "Location > Barangay",
+                        "location_full_address": "Location > Full Address",
+                        "location_directions": "Location > Directions",
+                        "location_directions_app_options": "App Options",
+                        "location_directions_map_address_url": "Map Address (URL)",
+                        "location_directions_map_address_embed": "Map Address (Embed)",
+                        "location_landmarks": "Location > Landmarks",
+                        "location_landmarks_each_landmark": "Each Landmark",
+                        "contacts_mobile_numbers": "Contacts > Mobile Numbers",
+                        "contacts_mobile_numbers_each_number": "Each Number",
+                        "contacts_phone_number": "Contacts > Phone Numbers",
+                        "contacts_phone_number_each_number": "Each Number",
+                        "contacts_email_address": "Contacts > Email Address",
+                        "contacts_email_address_each_email": "Each Email",
+                        "socials_website_url": "Socials > Website URL",
+                        "socials_website_status": "Socials > Website Status",
+                        "socials_online_booking_url": "Socials > Online Booking URL",
+                        "socials_facebook_url": "Socials > Facebook URL",
+                        "socials_facebook_date_created": "Socials > Facebook Date Created",
+                        "socials_facebook_last_active": "Socials > Facebook Last Active",
+                        "socials_anniversary_post": "Socials > Anniversary Post",
+                        "socials_other_socials": "Socials > Other Socials",
+                        "socials_other_socials_each_social": "Each Social",
+                        "all_services": "All Services",
+                        "special_offer": "Special Offer",
+                        "all_hours_monday": "Hours > Monday",
+                        "all_hours_tuesday": "Hours > Tuesday",
+                        "all_hours_wednesday": "Hours > Wednesday",
+                        "all_hours_thursday": "Hours > Thursday",
+                        "all_hours_friday": "Hours > Friday",
+                        "all_hours_saturday": "Hours > Saturday",
+                        "all_hours_sunday": "Hours > Sunday",
+                        "styling_options_primary_color": "Styling Options > Primary Color",
+                        "styling_options_secondary_color": "Styling Options > Secondary Color",
+                        "styling_options_background_color": "Styling Options > Background Color",
+                        "images_logo": "Images > Logo",
+                        "images_office_images": "Images > Office Images",
+                        "payment_method": "Payment Method",
+                        "all_testimonials": "Testimonial Reviews"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "max": "",
+                    "allow_custom": 0,
+                    "placeholder": "",
+                    "search_placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "required_message": "",
+                    "allow_null": 1,
+                    "allow_in_bindings": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "create_options": 0,
+                    "save_options": 0,
+                    "min": "",
+                    "parent_repeater": "field_69d904ed94571"
+                },
+                {
+                    "key": "field_69d90539c939a",
+                    "label": "Value",
+                    "name": "value",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "70",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_69d904ed94571"
+                }
+            ]
+        },
+        {
+            "key": "field_6a0403a95945d",
+            "label": "Status Notes",
+            "name": "status_notes",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "acfe_textarea_code": 0,
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "rows": 3,
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "all_entries"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "acfe": {
+        "autosync": [
+            "json"
+        ]
+    },
+    "modified": 1780287373
+}

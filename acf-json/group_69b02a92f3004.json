@@ -1,0 +1,2240 @@
+{
+    "key": "group_69b02a92f3004",
+    "title": "Entry Details",
+    "fields": [
+        {
+            "key": "field_6a01dd2a9d17a",
+            "label": "Details",
+            "name": "details",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large",
+            "sub_fields": [
+                {
+                    "key": "field_6a01dd3f9d17b",
+                    "label": "About",
+                    "name": "about",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 1,
+                    "rows": 4,
+                    "placeholder": "",
+                    "new_lines": ""
+                }
+            ]
+        },
+        {
+            "key": "field_69bc63eadbbf9",
+            "label": "Location",
+            "name": "location",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large",
+            "sub_fields": [
+                {
+                    "key": "field_69bc71829dbdd",
+                    "label": "Province",
+                    "name": "province",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_69bc63eadbbfa",
+                    "label": "City\/Municipality",
+                    "name": "city_municipality",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_69bc6430dbbfb",
+                    "label": "Barangay",
+                    "name": "barangay",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_69bc71e3a5f6d",
+                    "label": "Full Address",
+                    "name": "full_address",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_69eda76ff682c",
+                    "label": "Directions",
+                    "name": "directions",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_repeater_stylised_button": 0,
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add +",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_69eda7aaf6830",
+                            "label": "App Options",
+                            "name": "app_options",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "google-map": "Google Map",
+                                "waze-map": "Waze Map"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "max": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "allow_null": 1,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": "",
+                            "min": "",
+                            "parent_repeater": "field_69eda76ff682c"
+                        },
+                        {
+                            "key": "field_69eda770f682e",
+                            "label": "Map Address (URL)",
+                            "name": "map_address_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "required_message": "",
+                            "allow_in_bindings": 1,
+                            "placeholder": "",
+                            "parent_repeater": "field_69eda76ff682c"
+                        },
+                        {
+                            "key": "field_69eda792f682f",
+                            "label": "Map Address (Embed)",
+                            "name": "map_address_embed",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "default_value": "",
+                            "acfe_textarea_code": 0,
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "rows": 4,
+                            "placeholder": "",
+                            "new_lines": "",
+                            "parent_repeater": "field_69eda76ff682c"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_69cf93cd145c7",
+                    "label": "Landmarks",
+                    "name": "landmarks",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add +",
+                    "rows_per_page": 20,
+                    "acfe_repeater_stylised_button": 0,
+                    "sub_fields": [
+                        {
+                            "key": "field_69cf94029e7ce",
+                            "label": "Each Landmark",
+                            "name": "each_landmark",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_69cf93cd145c7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_69bc72f1eb2d2",
+            "label": "Contacts",
+            "name": "contacts",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large",
+            "sub_fields": [
+                {
+                    "key": "field_69d4d3bf3fbf0",
+                    "label": "Mobile Numbers",
+                    "name": "mobile_numbers",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_repeater_stylised_button": 0,
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add +",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_69d4d3bf3fbf1",
+                            "label": "Each Number",
+                            "name": "each_number",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_69d4d3bf3fbf0"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_69bc72f1eb2d3",
+                    "label": "Phone Numbers",
+                    "name": "phone_number",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_repeater_stylised_button": 0,
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add +",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_69bc7347ac747",
+                            "label": "Each Number",
+                            "name": "each_number",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_69bc72f1eb2d3"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_69bc72f1eb2d5",
+                    "label": "Email Address",
+                    "name": "email_address",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_repeater_stylised_button": 0,
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add +",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_69bc72f1eb2d6",
+                            "label": "Each Email",
+                            "name": "each_email",
+                            "aria-label": "",
+                            "type": "email",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "allow_in_bindings": 1,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_69bc72f1eb2d5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_69bc7243c58c3",
+            "label": "Socials",
+            "name": "socials",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large",
+            "sub_fields": [
+                {
+                    "key": "field_69bc726dc58c8",
+                    "label": "Website URL",
+                    "name": "website_url",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "",
+                    "required": false,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_69d88371d585f",
+                    "label": "Website Status",
+                    "name": "website_status",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_69bc726dc58c8",
+                                "operator": "!=empty"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "active": "Active",
+                        "inactive": "Inactive"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 1,
+                    "allow_in_bindings": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0,
+                    "allow_custom": 0,
+                    "search_placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "field_69dda6c0b121c",
+                    "label": "Online Booking URL",
+                    "name": "online_booking_url",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "allow_in_bindings": 1,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_69bc7243c58c4",
+                    "label": "Facebook URL",
+                    "name": "facebook_url",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "allow_in_bindings": 1,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_69d3b8ee6bc34",
+                    "label": "Facebook Date Created",
+                    "name": "facebook_date_created",
+                    "aria-label": "",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "F j, Y",
+                    "return_format": "d\/m\/Y",
+                    "first_day": 1,
+                    "default_to_current_date": 0,
+                    "placeholder": "",
+                    "min_date": "",
+                    "max_date": "",
+                    "no_weekends": 0,
+                    "required_message": "",
+                    "allow_in_bindings": 1
+                },
+                {
+                    "key": "field_69d3bbb989271",
+                    "label": "Facebook Last Active",
+                    "name": "facebook_last_active",
+                    "aria-label": "",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "F j, Y",
+                    "return_format": "d\/m\/Y",
+                    "first_day": 1,
+                    "default_to_current_date": 0,
+                    "placeholder": "",
+                    "min_date": "",
+                    "max_date": "",
+                    "no_weekends": 0,
+                    "required_message": "",
+                    "allow_in_bindings": 1
+                },
+                {
+                    "key": "field_69e468c6a51ed",
+                    "label": "Anniversary Post",
+                    "name": "anniversary_post",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_69bc7283c58c9",
+                    "label": "Other Socials",
+                    "name": "other_socials",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_repeater_stylised_button": 0,
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add +",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_69bc72c1d5642",
+                            "label": "Each Social",
+                            "name": "each_social",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": false,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "parent_repeater": "field_69bc7283c58c9"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_69bc66312ee27",
+            "label": "All Services",
+            "name": "all_services",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_repeater_stylised_button": 0,
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add +",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_69bc66312ee28",
+                    "label": "Each Service",
+                    "name": "each_service",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_69bc66312ee27"
+                }
+            ]
+        },
+        {
+            "key": "field_69bc7f3dbc15b",
+            "label": "Special Offer",
+            "name": "special_offer",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Minimum of 3 Special Offers",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_repeater_stylised_button": 0,
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add +",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_69bc7f3dbc15c",
+                    "label": "Promo Name",
+                    "name": "promo_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_69bc7f3dbc15b"
+                },
+                {
+                    "key": "field_69bc7fc8eed85",
+                    "label": "Promo Link",
+                    "name": "promo_link",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "allow_in_bindings": 1,
+                    "placeholder": "",
+                    "parent_repeater": "field_69bc7f3dbc15b"
+                },
+                {
+                    "key": "field_69cf49b332c47",
+                    "label": "Promo Mechanics",
+                    "name": "promo_mechanics",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 1,
+                    "rows": 2,
+                    "placeholder": "",
+                    "new_lines": "",
+                    "parent_repeater": "field_69bc7f3dbc15b"
+                }
+            ]
+        },
+        {
+            "key": "field_69e6155938fb5",
+            "label": "Hours",
+            "name": "all_hours",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large",
+            "sub_fields": [
+                {
+                    "key": "field_69e6157138fb7",
+                    "label": "Monday",
+                    "name": "monday",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "acfe_seamless_style": 1,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "sub_fields": [
+                        {
+                            "key": "field_69e617bb230ed",
+                            "label": "",
+                            "name": "remarks",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "choices": {
+                                "open": "Open",
+                                "closed": "Closed",
+                                "by-appointment": "By Appointment",
+                                "not-mentioned": "Not Mentioned"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "max": "",
+                            "allow_null": 1,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": "",
+                            "min": ""
+                        },
+                        {
+                            "key": "field_69e617a0230eb",
+                            "label": "",
+                            "name": "start_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e617bb230ed",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_69e617b1230ec",
+                            "label": "",
+                            "name": "end_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e617bb230ed",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        }
+                    ]
+                },
+                {
+                    "key": "field_69e636e613bf0",
+                    "label": "Tuesday",
+                    "name": "tuesday",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "acfe_seamless_style": 1,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "sub_fields": [
+                        {
+                            "key": "field_69e636e613bf1",
+                            "label": "",
+                            "name": "remarks",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "choices": {
+                                "open": "Open",
+                                "closed": "Closed",
+                                "by-appointment": "By Appointment",
+                                "not-mentioned": "Not Mentioned"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "max": "",
+                            "allow_null": 1,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": "",
+                            "min": ""
+                        },
+                        {
+                            "key": "field_69e636e613bf2",
+                            "label": "",
+                            "name": "start_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e636e613bf1",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_69e636e613bf3",
+                            "label": "",
+                            "name": "end_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e636e613bf1",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        }
+                    ]
+                },
+                {
+                    "key": "field_69e637d3145b4",
+                    "label": "Wednesday",
+                    "name": "wednesday",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "acfe_seamless_style": 1,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "sub_fields": [
+                        {
+                            "key": "field_69e637d3145b5",
+                            "label": "",
+                            "name": "remarks",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "choices": {
+                                "open": "Open",
+                                "closed": "Closed",
+                                "by-appointment": "By Appointment",
+                                "not-mentioned": "Not Mentioned"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "max": "",
+                            "allow_null": 1,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": "",
+                            "min": ""
+                        },
+                        {
+                            "key": "field_69e637d3145b6",
+                            "label": "",
+                            "name": "start_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e637d3145b5",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_69e637d3145b7",
+                            "label": "",
+                            "name": "end_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e637d3145b5",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        }
+                    ]
+                },
+                {
+                    "key": "field_69e63857a27ec",
+                    "label": "Thursday",
+                    "name": "thursday",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "acfe_seamless_style": 1,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "sub_fields": [
+                        {
+                            "key": "field_69e63858a27ed",
+                            "label": "",
+                            "name": "remarks",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "choices": {
+                                "open": "Open",
+                                "closed": "Closed",
+                                "by-appointment": "By Appointment",
+                                "not-mentioned": "Not Mentioned"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "max": "",
+                            "allow_null": 1,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": "",
+                            "min": ""
+                        },
+                        {
+                            "key": "field_69e63858a27ee",
+                            "label": "",
+                            "name": "start_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e63858a27ed",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_69e63858a27ef",
+                            "label": "",
+                            "name": "end_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e63858a27ed",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        }
+                    ]
+                },
+                {
+                    "key": "field_69e63873a27f0",
+                    "label": "Friday",
+                    "name": "friday",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "acfe_seamless_style": 1,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "sub_fields": [
+                        {
+                            "key": "field_69e63873a27f1",
+                            "label": "",
+                            "name": "remarks",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "choices": {
+                                "open": "Open",
+                                "closed": "Closed",
+                                "by-appointment": "By Appointment",
+                                "not-mentioned": "Not Mentioned"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "max": "",
+                            "allow_null": 1,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": "",
+                            "min": ""
+                        },
+                        {
+                            "key": "field_69e63873a27f2",
+                            "label": "",
+                            "name": "start_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e63873a27f1",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_69e63873a27f3",
+                            "label": "",
+                            "name": "end_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e63873a27f1",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        }
+                    ]
+                },
+                {
+                    "key": "field_69e6387aa27f4",
+                    "label": "Saturday",
+                    "name": "saturday",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "acfe_seamless_style": 1,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "sub_fields": [
+                        {
+                            "key": "field_69e6387aa27f5",
+                            "label": "",
+                            "name": "remarks",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "choices": {
+                                "open": "Open",
+                                "closed": "Closed",
+                                "by-appointment": "By Appointment",
+                                "not-mentioned": "Not Mentioned"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "max": "",
+                            "allow_null": 1,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": "",
+                            "min": ""
+                        },
+                        {
+                            "key": "field_69e6387aa27f6",
+                            "label": "",
+                            "name": "start_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e6387aa27f5",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_69e6387aa27f7",
+                            "label": "",
+                            "name": "end_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e6387aa27f5",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        }
+                    ]
+                },
+                {
+                    "key": "field_69e6387fa27f8",
+                    "label": "Sunday",
+                    "name": "sunday",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "acfe_seamless_style": 1,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "sub_fields": [
+                        {
+                            "key": "field_69e6387fa27f9",
+                            "label": "",
+                            "name": "remarks",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "choices": {
+                                "open": "Open",
+                                "closed": "Closed",
+                                "by-appointment": "By Appointment",
+                                "not-mentioned": "Not Mentioned"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "max": "",
+                            "allow_null": 1,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": "",
+                            "min": ""
+                        },
+                        {
+                            "key": "field_69e6387fa27fa",
+                            "label": "",
+                            "name": "start_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e6387fa27f9",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_69e6387fa27fb",
+                            "label": "",
+                            "name": "end_time",
+                            "aria-label": "",
+                            "type": "time_picker",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_69e6387fa27f9",
+                                        "operator": "==",
+                                        "value": "open"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "display_format": "g:i a",
+                            "return_format": "g:i a",
+                            "placeholder": "",
+                            "min_time": "",
+                            "max_time": "",
+                            "min_hour": "",
+                            "max_hour": "",
+                            "min_min": "",
+                            "max_min": "",
+                            "min_sec": "",
+                            "max_sec": "",
+                            "allow_in_bindings": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_69b02a9432a29",
+            "label": "Styling Options",
+            "name": "styling_options",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large",
+            "sub_fields": [
+                {
+                    "key": "field_69b02b586effb",
+                    "label": "Primary Color",
+                    "name": "primary_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "display": "default",
+                    "button_label": "Select Color",
+                    "color_picker": 1,
+                    "absolute": 0,
+                    "input": 1,
+                    "allow_null": 1,
+                    "theme_colors": 0,
+                    "colors": [],
+                    "required_message": "",
+                    "allow_in_bindings": 1,
+                    "show_custom_palette": 0,
+                    "show_color_wheel": 1,
+                    "custom_palette_source": "",
+                    "palette_colors": "",
+                    "acfe_advanced": true
+                },
+                {
+                    "key": "field_69b02b636effc",
+                    "label": "Secondary Color",
+                    "name": "secondary_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "display": "default",
+                    "button_label": "Select Color",
+                    "color_picker": 1,
+                    "absolute": 0,
+                    "input": 1,
+                    "allow_null": 1,
+                    "theme_colors": 0,
+                    "colors": [],
+                    "required_message": "",
+                    "allow_in_bindings": 1,
+                    "show_custom_palette": 0,
+                    "show_color_wheel": 1,
+                    "custom_palette_source": "",
+                    "palette_colors": "",
+                    "acfe_advanced": true
+                },
+                {
+                    "key": "field_69d50d78eb9cc",
+                    "label": "Background Color",
+                    "name": "background_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "display": "default",
+                    "button_label": "Select Color",
+                    "color_picker": 1,
+                    "absolute": 0,
+                    "input": 1,
+                    "allow_null": 1,
+                    "theme_colors": 0,
+                    "colors": [],
+                    "required_message": "",
+                    "allow_in_bindings": 1,
+                    "show_custom_palette": 0,
+                    "show_color_wheel": 1,
+                    "custom_palette_source": "",
+                    "palette_colors": "",
+                    "acfe_advanced": true
+                }
+            ]
+        },
+        {
+            "key": "field_69bc66d2e8761",
+            "label": "Images",
+            "name": "images",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large",
+            "sub_fields": [
+                {
+                    "key": "field_69bc66d2e8762",
+                    "label": "Logo",
+                    "name": "logo",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "uploader": "",
+                    "return_format": "id",
+                    "library": "all",
+                    "upload_folder": "",
+                    "acfe_thumbnail": 0,
+                    "required_message": "",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "allow_in_bindings": 1,
+                    "preview_size": "thumbnail"
+                },
+                {
+                    "key": "field_69bc66d2e8763",
+                    "label": "Office Images",
+                    "name": "office_images",
+                    "aria-label": "",
+                    "type": "gallery",
+                    "instructions": "Minimum of 5 Images",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "library": "all",
+                    "min": "",
+                    "max": "",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "insert": "append",
+                    "preview_size": "medium"
+                }
+            ]
+        },
+        {
+            "key": "field_69ed954acb9c8",
+            "label": "Payment Method",
+            "name": "payment_method",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_repeater_stylised_button": 0,
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add +",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_69ed954acb9c9",
+                    "label": "Method",
+                    "name": "method",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "cash": "Cash",
+                        "debit-card": "Debit Card",
+                        "credit-card": "Credit Card",
+                        "bank-transfer": "Bank Transfer",
+                        "e-wallet": "E-wallet",
+                        "qrph": "QRPH"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "max": "",
+                    "allow_custom": 0,
+                    "placeholder": "",
+                    "search_placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "required_message": "",
+                    "allow_null": 1,
+                    "allow_in_bindings": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "create_options": 0,
+                    "save_options": 0,
+                    "min": "",
+                    "parent_repeater": "field_69ed954acb9c8"
+                },
+                {
+                    "key": "field_69ed95b28c540",
+                    "label": "Details",
+                    "name": "details",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "Item One, Item Two, Item Three",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_69ed954acb9c8"
+                }
+            ]
+        },
+        {
+            "key": "field_69bc666087a5e",
+            "label": "Testimonial Reviews",
+            "name": "all_testimonials",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Minimum of 6 Reviews",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_repeater_stylised_button": 0,
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add +",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_69cf09ff16d15",
+                    "label": "Review",
+                    "name": "review",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "acfe_textarea_code": 0,
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 1,
+                    "rows": 2,
+                    "placeholder": "",
+                    "new_lines": "",
+                    "parent_repeater": "field_69bc666087a5e"
+                },
+                {
+                    "key": "field_69cf0a0a16d16",
+                    "label": "Reviewer First Name",
+                    "name": "first_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_69bc666087a5e"
+                },
+                {
+                    "key": "field_69d6c9a8f9ffd",
+                    "label": "Reviewer Last Name",
+                    "name": "reviewer_last_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_69bc666087a5e"
+                },
+                {
+                    "key": "field_69ee34c20ceb8",
+                    "label": "Source Link",
+                    "name": "source_link",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "parent_repeater": "field_69bc666087a5e"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "all_entries"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "comments",
+        "the_content",
+        "discussion",
+        "excerpt"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "acfe": {
+        "autosync": [
+            "json"
+        ]
+    },
+    "modified": 1780287469
+}
