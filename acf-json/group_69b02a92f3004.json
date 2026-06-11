@@ -51,7 +51,7 @@
                     "label": "Tagline",
                     "name": "tagline",
                     "aria-label": "",
-                    "type": "textarea",
+                    "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -61,12 +61,11 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "acfe_textarea_code": 0,
                     "maxlength": "",
-                    "allow_in_bindings": 1,
-                    "rows": 4,
+                    "allow_in_bindings": 0,
                     "placeholder": "",
-                    "new_lines": "",
+                    "prepend": "",
+                    "append": "",
                     "acfe_ai": {
                         "enable": "0"
                     }
@@ -2043,7 +2042,7 @@
         },
         {
             "key": "field_6a2b43f9da6f8",
-            "label": "Featured Post",
+            "label": "Featured Post (Recent)",
             "name": "featured_post",
             "aria-label": "",
             "type": "repeater",
@@ -2737,5 +2736,5 @@
             "json"
         ]
     },
-    "modified": 1781221895
+    "modified": 1781222067
 }
