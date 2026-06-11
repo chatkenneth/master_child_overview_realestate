@@ -1242,6 +1242,57 @@
             ]
         },
         {
+            "key": "field_6a2b42c2da6f4",
+            "label": "Why Choose Us",
+            "name": "why_choose_us",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_repeater_stylised_button": 0,
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add +",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_6a2b42c2da6f6",
+                    "label": "Each WCU",
+                    "name": "each_wcu",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "acfe_ai": {
+                        "enable": "0"
+                    },
+                    "parent_repeater": "field_6a2b42c2da6f4"
+                }
+            ]
+        },
+        {
             "key": "field_69bc7f3dbc15b",
             "label": "Special Offer",
             "name": "special_offer",
@@ -1330,57 +1381,6 @@
                     "placeholder": "",
                     "new_lines": "",
                     "parent_repeater": "field_69bc7f3dbc15b"
-                }
-            ]
-        },
-        {
-            "key": "field_6a2b42c2da6f4",
-            "label": "Why Choose Us",
-            "name": "why_choose_us",
-            "aria-label": "",
-            "type": "repeater",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "acfe_repeater_stylised_button": 0,
-            "layout": "row",
-            "pagination": 0,
-            "min": 0,
-            "max": 0,
-            "collapsed": "",
-            "button_label": "Add +",
-            "rows_per_page": 20,
-            "sub_fields": [
-                {
-                    "key": "field_6a2b42c2da6f6",
-                    "label": "Each WCU",
-                    "name": "each_wcu",
-                    "aria-label": "",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "required_message": "",
-                    "maxlength": "",
-                    "allow_in_bindings": 0,
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "acfe_ai": {
-                        "enable": "0"
-                    },
-                    "parent_repeater": "field_6a2b42c2da6f4"
                 }
             ]
         },
@@ -2737,5 +2737,5 @@
             "json"
         ]
     },
-    "modified": 1781221321
+    "modified": 1781221430
 }
