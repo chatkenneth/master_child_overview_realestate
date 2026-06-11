@@ -2043,7 +2043,7 @@
         {
             "key": "field_6a2b43f9da6f8",
             "label": "Featured Post (Recent)",
-            "name": "featured_post",
+            "name": "featured_projects",
             "aria-label": "",
             "type": "repeater",
             "instructions": "Mimimum of 10 Items",
@@ -2736,5 +2736,5 @@
             "json"
         ]
     },
-    "modified": 1781222067
+    "modified": 1781222249
 }
