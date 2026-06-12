@@ -6,6 +6,7 @@ function normalize_title($title) {
     return $title;
 }
 
+
 function ordinal($number) {
     $suffix = 'th';
 
@@ -123,11 +124,28 @@ function validate_clinic_data($post_id = null, $return = 'html') {
     $rows .= get_remarks_details_about($post_id, $row_counter++);
 
     // =========================
+    // Tagline
+    // =========================
+
+    $error_details = array_merge_recursive($error_details, get_remarks_details_tagline($post_id, 0, 'errors') );
+    $rows .= get_remarks_details_tagline($post_id, $row_counter++);
+
+    // =========================
+    // Featured Video
+    // =========================
+
+    $error_details = array_merge_recursive($error_details, get_remarks_details_featured_video($post_id, 0, 'errors') );
+    $rows .= get_remarks_details_featured_video($post_id, $row_counter++);
+
+    // =========================
     // Hours
     // =========================
 
     $error_details = array_merge_recursive($error_details, get_remarks_all_hours($post_id, 0, 'errors') );
     $rows .= get_remarks_all_hours($post_id, $row_counter);
+
+    $error_details = array_merge_recursive($error_details, get_remarks_all_hours_notes($post_id, 0, 'errors') );
+    $rows .= get_remarks_all_hours_notes($post_id, $row_counter);
 
     // =========================
     // All Services
@@ -135,6 +153,13 @@ function validate_clinic_data($post_id = null, $return = 'html') {
 
     $error_details = array_merge_recursive($error_details, get_remarks_all_services($post_id, 0, 'errors') );
     $rows .= get_remarks_all_services($post_id, $row_counter++); 
+
+    // =========================
+    // Why Choose Us
+    // =========================
+
+    $error_details = array_merge_recursive($error_details, get_remarks_why_choose_us($post_id, 0, 'errors') );
+    $rows .= get_remarks_why_choose_us($post_id, $row_counter++); 
 
     // =========================
     // MOBILE NUMBERS
@@ -239,6 +264,27 @@ function validate_clinic_data($post_id = null, $return = 'html') {
 
     $error_details = array_merge_recursive($error_details, get_remarks_images_office_images($post_id, 0, 'errors') );
     $rows .= get_remarks_images_office_images($post_id, $row_counter++);
+   
+    // =========================
+    // Team Images
+    // =========================
+
+    $error_details = array_merge_recursive($error_details, get_remarks_images_team_images($post_id, 0, 'errors') );
+    $rows .= get_remarks_images_team_images($post_id, $row_counter++);
+   
+    // =========================
+    // Our Team
+    // =========================
+
+    $error_details = array_merge_recursive($error_details, get_remarks_our_team($post_id, 0, 'errors') );
+    $rows .= get_remarks_our_team($post_id, $row_counter++);   
+
+    // =========================
+    // All Policies
+    // =========================
+
+    $error_details = array_merge_recursive($error_details, get_remarks_all_policies($post_id, 0, 'errors') );
+    $rows .= get_remarks_all_policies($post_id, $row_counter++);
 
     
      // =========================
@@ -414,9 +460,21 @@ function validate_clinic_data($post_id = null, $return = 'html') {
                         <div class="dentist-logo mt-2">
                             <div class="website-banner-avatar" style="background-image: url('<?php echo $image_full; ?>');border-color: <?php echo $acf_styling_options_background_color; ?>"></div>
                             
-                            <div class="dentist-color dentist-color-first" style="background-color: <?php echo $acf_styling_options_primary_color; ?>;"></div>
-                            <div class="dentist-color dentist-color-second" style="background-color: <?php echo $acf_styling_options_secondary_color; ?>;"></div>
-                            <div class="dentist-color dentist-color-third" style="background-color: <?php echo $acf_styling_options_background_color; ?>;"></div>
+                            <div class="dentist-color dentist-color-first" style="background-color: <?php echo $acf_styling_options_primary_color; ?>;">
+                                <span class="dentist-color-text">
+                                    <?php echo $acf_styling_options_primary_color; ?>
+                                </span>
+                            </div>
+                            <div class="dentist-color dentist-color-second" style="background-color: <?php echo $acf_styling_options_secondary_color; ?>;">
+                                <span class="dentist-color-text">
+                                    <?php echo $acf_styling_options_secondary_color; ?>
+                                </span>
+                            </div>
+                            <div class="dentist-color dentist-color-third" style="background-color: <?php echo $acf_styling_options_background_color; ?>;">
+                                <span class="dentist-color-text">
+                                    <?php echo $acf_styling_options_background_color; ?>
+                                </span>
+                            </div>
                         </div>
                      <?php endif; ?>
 
