@@ -1069,6 +1069,7 @@
                             "choices": {
                                 "open": "Open",
                                 "closed": "Closed",
+                                "always-open": "Always Open",
                                 "by-appointment": "By Appointment",
                                 "not-mentioned": "Not Mentioned"
                             },
@@ -1202,6 +1203,7 @@
                             "choices": {
                                 "open": "Open",
                                 "closed": "Closed",
+                                "always-open": "Always Open",
                                 "by-appointment": "By Appointment",
                                 "not-mentioned": "Not Mentioned"
                             },
@@ -1335,6 +1337,7 @@
                             "choices": {
                                 "open": "Open",
                                 "closed": "Closed",
+                                "always-open": "Always Open",
                                 "by-appointment": "By Appointment",
                                 "not-mentioned": "Not Mentioned"
                             },
@@ -1468,6 +1471,7 @@
                             "choices": {
                                 "open": "Open",
                                 "closed": "Closed",
+                                "always-open": "Always Open",
                                 "by-appointment": "By Appointment",
                                 "not-mentioned": "Not Mentioned"
                             },
@@ -1601,6 +1605,7 @@
                             "choices": {
                                 "open": "Open",
                                 "closed": "Closed",
+                                "always-open": "Always Open",
                                 "by-appointment": "By Appointment",
                                 "not-mentioned": "Not Mentioned"
                             },
@@ -1734,6 +1739,7 @@
                             "choices": {
                                 "open": "Open",
                                 "closed": "Closed",
+                                "always-open": "Always Open",
                                 "by-appointment": "By Appointment",
                                 "not-mentioned": "Not Mentioned"
                             },
@@ -1867,6 +1873,7 @@
                             "choices": {
                                 "open": "Open",
                                 "closed": "Closed",
+                                "always-open": "Always Open",
                                 "by-appointment": "By Appointment",
                                 "not-mentioned": "Not Mentioned"
                             },
@@ -2736,5 +2743,5 @@
             "json"
         ]
     },
-    "modified": 1781222249
+    "modified": 1781225465
 }
