@@ -2440,51 +2440,6 @@
                     "parent_repeater": "field_69bc666087a5e"
                 },
                 {
-                    "key": "field_69cf0a0a16d16",
-                    "label": "Reviewer First Name",
-                    "name": "first_name",
-                    "aria-label": "",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "required_message": "",
-                    "maxlength": "",
-                    "allow_in_bindings": 0,
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "parent_repeater": "field_69bc666087a5e"
-                },
-                {
-                    "key": "field_69d6c9a8f9ffd",
-                    "label": "Reviewer Last Name",
-                    "name": "reviewer_last_name",
-                    "aria-label": "",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "maxlength": "",
-                    "allow_in_bindings": 0,
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "parent_repeater": "field_69bc666087a5e"
-                },
-                {
                     "key": "field_69ee34c20ceb8",
                     "label": "Source Link",
                     "name": "source_link",
@@ -2769,5 +2724,5 @@
             "json"
         ]
     },
-    "modified": 1781328808
+    "modified": 1781330187
 }
