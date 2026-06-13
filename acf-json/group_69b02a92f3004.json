@@ -2414,6 +2414,32 @@
                     "parent_repeater": "field_69bc666087a5e"
                 },
                 {
+                    "key": "field_6a2ceb9e6edcd",
+                    "label": "Name",
+                    "name": "name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "acfe_ai": {
+                        "enable": "0"
+                    },
+                    "parent_repeater": "field_69bc666087a5e"
+                },
+                {
                     "key": "field_69cf0a0a16d16",
                     "label": "Reviewer First Name",
                     "name": "first_name",
@@ -2743,5 +2769,5 @@
             "json"
         ]
     },
-    "modified": 1781225465
+    "modified": 1781328808
 }
