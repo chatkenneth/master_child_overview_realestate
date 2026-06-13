@@ -25,7 +25,4 @@ add_action( 'wp', 'remove_hooks_from_child');
 
 
 
-
-
 include get_theme_file_path( 'inc/functions-child-cpt.php' );
-include get_theme_file_path( 'inc/functions-remarks.php' );
