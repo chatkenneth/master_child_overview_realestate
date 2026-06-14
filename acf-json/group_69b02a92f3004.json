@@ -628,6 +628,27 @@
                             "parent_repeater": "field_69cf93cd145c7"
                         }
                     ]
+                },
+                {
+                    "key": "field_6a2df55f5abf8",
+                    "label": "I have other branch",
+                    "name": "multiple_locations",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": false,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 0,
+                    "message": "",
+                    "ui": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": "",
+                    "style": ""
                 }
             ]
         },
@@ -2724,5 +2745,5 @@
             "json"
         ]
     },
-    "modified": 1781330187
+    "modified": 1781396851
 }
