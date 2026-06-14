@@ -2656,6 +2656,36 @@
                     "preview_size": "thumbnail"
                 },
                 {
+                    "key": "field_6a2e914a7b451",
+                    "label": "Featured Image",
+                    "name": "featured_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "uploader": "",
+                    "return_format": "id",
+                    "library": "all",
+                    "upload_folder": "",
+                    "acfe_thumbnail": 0,
+                    "required_message": "",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "allow_in_bindings": 1,
+                    "preview_size": "thumbnail"
+                },
+                {
                     "key": "field_69bc66d2e8763",
                     "label": "Office Images",
                     "name": "office_images",
@@ -2745,5 +2775,5 @@
             "json"
         ]
     },
-    "modified": 1781396851
+    "modified": 1781436752
 }
