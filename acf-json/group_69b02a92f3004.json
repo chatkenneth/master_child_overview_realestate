@@ -636,18 +636,19 @@
                     "aria-label": "",
                     "type": "true_false",
                     "instructions": "",
-                    "required": false,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
                         "class": "",
                         "id": ""
                     },
-                    "default_value": 0,
                     "message": "",
-                    "ui": 0,
+                    "default_value": 0,
+                    "allow_in_bindings": 1,
                     "ui_on_text": "",
                     "ui_off_text": "",
+                    "ui": 1,
                     "style": ""
                 }
             ]
@@ -2662,7 +2663,7 @@
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -2674,7 +2675,6 @@
                     "library": "all",
                     "upload_folder": "",
                     "acfe_thumbnail": 0,
-                    "required_message": "",
                     "min_width": "",
                     "min_height": "",
                     "min_size": "",
@@ -2775,5 +2775,5 @@
             "json"
         ]
     },
-    "modified": 1781436752
+    "modified": 1781565214
 }
