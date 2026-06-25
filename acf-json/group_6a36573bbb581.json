@@ -1,0 +1,258 @@
+{
+    "key": "group_6a36573bbb581",
+    "title": "Help Entries",
+    "fields": [
+        {
+            "key": "field_6a36573da2a8d",
+            "label": "All Help",
+            "name": "all_help",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_repeater_stylised_button": 0,
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add +",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_6a3665d49501d",
+                    "label": "",
+                    "name": "featured",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "acfe_seamless_style": 1,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "parent_repeater": "field_6a36573da2a8d",
+                    "sub_fields": [
+                        {
+                            "key": "field_6a36577f39cb9",
+                            "label": "Category",
+                            "name": "entry_category",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "choices": {
+                                "details_about": "Details > About",
+                                "details_tagline": "Details > Tagline",
+                                "details_featured_video": "Details > Featured Video",
+                                "details_seller_type": "Details > Seller Type",
+                                "details_seller_portal": "Details > Seller Portal",
+                                "socials_website_url": "Socials > Website URL",
+                                "socials_website_status": "Socials > Website Status",
+                                "socials_online_booking_url": "Socials > Online Booking URL",
+                                "socials_facebook_url": "Socials > Facebook URL",
+                                "socials_facebook_date_created": "Socials > Facebook Date Created",
+                                "socials_facebook_last_active": "Socials > Facebook Last Active",
+                                "socials_anniversary_post": "Socials > Anniversary Post",
+                                "socials_other_socials": "Socials > Other Socials",
+                                "location_province": "Location > Province",
+                                "location_city_municipality": "Location > City\/Municipality",
+                                "location_barangay": "Location > Barangay",
+                                "location_full_address": "Location > Full Address",
+                                "location_directions": "Location > Directions",
+                                "location_landmarks": "Location > Landmarks",
+                                "location_multiple_locations": "Location > I have other branch",
+                                "contacts_mobile_numbers": "Contacts > Mobile Numbers",
+                                "contacts_phone_number": "Contacts > Phone Numbers",
+                                "contacts_email_address": "Contacts > Email Address",
+                                "why_choose_us": "Why Choose Us",
+                                "all_services": "All Services",
+                                "special_offer": "Special Offer",
+                                "all_hours_notes": "Hours > Hours Notes",
+                                "all_hours_monday": "Hours > Monday",
+                                "all_hours_tuesday": "Hours > Tuesday",
+                                "all_hours_wednesday": "Hours > Wednesday",
+                                "all_hours_thursday": "Hours > Thursday",
+                                "all_hours_friday": "Hours > Friday",
+                                "all_hours_saturday": "Hours > Saturday",
+                                "all_hours_sunday": "Hours > Sunday",
+                                "all_policies": "Policy",
+                                "featured_projects": "Featured Post (Recent)",
+                                "our_team": "Our Team",
+                                "payment_method": "Payment Method",
+                                "all_testimonials": "Testimonial Reviews",
+                                "styling_options_primary_color": "Styling Options > Primary Color",
+                                "styling_options_secondary_color": "Styling Options > Secondary Color",
+                                "styling_options_background_color": "Styling Options > Background Color",
+                                "images_logo": "Images > Logo",
+                                "images_featured_image": "Images > Featured Image",
+                                "images_office_images": "Images > Office Images",
+                                "images_team_images": "Images > Team Images"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_custom": 0,
+                            "placeholder": "",
+                            "search_placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "max": "",
+                            "allow_null": 1,
+                            "allow_in_bindings": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "create_options": 0,
+                            "save_options": 0,
+                            "min": ""
+                        },
+                        {
+                            "key": "field_6a3657c839cbd",
+                            "label": "Media",
+                            "name": "media",
+                            "aria-label": "",
+                            "type": "gallery",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "required_message": "",
+                            "return_format": "id",
+                            "library": "all",
+                            "min": "",
+                            "max": "",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "insert": "append",
+                            "preview_size": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6a36664d41111",
+                    "label": "",
+                    "name": "details",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "acfe_seamless_style": 1,
+                    "acfe_group_modal": 0,
+                    "acfe_group_modal_close": 0,
+                    "acfe_group_modal_button": "",
+                    "acfe_group_modal_size": "large",
+                    "parent_repeater": "field_6a36573da2a8d",
+                    "sub_fields": [
+                        {
+                            "key": "field_6a3657b339cbb",
+                            "label": "Content",
+                            "name": "content",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "acfe_wysiwyg_height": 200,
+                            "acfe_wysiwyg_max_height": "",
+                            "acfe_wysiwyg_valid_elements": "",
+                            "acfe_wysiwyg_custom_style": "",
+                            "acfe_wysiwyg_disable_wp_style": 0,
+                            "acfe_wysiwyg_autoresize": 0,
+                            "acfe_wysiwyg_disable_resize": 0,
+                            "acfe_wysiwyg_remove_path": 0,
+                            "acfe_wysiwyg_menubar": 0,
+                            "acfe_wysiwyg_transparent": 0,
+                            "acfe_wysiwyg_merge_toolbar": 0,
+                            "acfe_wysiwyg_custom_toolbar": 0,
+                            "allow_in_bindings": 0,
+                            "tabs": "all",
+                            "toolbar": "basic_enhanced",
+                            "media_upload": 0,
+                            "delay": 0,
+                            "acfe_ai": {
+                                "enable": "0"
+                            },
+                            "acfe_wysiwyg_auto_init": 0,
+                            "acfe_wysiwyg_min_height": 300,
+                            "acfe_wysiwyg_toolbar_buttons": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "all_help"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "comments",
+        "the_content",
+        "excerpt"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "acfe": {
+        "autosync": [
+            "json"
+        ]
+    },
+    "modified": 1782356514
+}
